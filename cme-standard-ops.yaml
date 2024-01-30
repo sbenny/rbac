@@ -183,14 +183,6 @@ rules:
   - list
   - watch
 - apiGroups:
-  - k8s.cbp.dhs.gov
-  resources:
-  - contacts
-  verbs:
-  - get
-  - list
-  - watch
-- apiGroups:
   - networking.istio.io
   resources:
   - virtualservices
